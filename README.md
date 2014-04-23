@@ -39,3 +39,29 @@ Include the listed dependencies, then `slideShow.js`, `slideShow.css`,
   }
 ]
 ```
+
+###Install
+
+```bash
+npm install
+bower install
+```
+
+###Run tests
+
+```bash
+npm test
+```
+
+###Start automated testing
+
+```bash
+./node_modules/karma/bin/karma start karma.conf.js
+grunt watch
+```
+
+###Host slides
+
+```bash
+npm serve
+```
