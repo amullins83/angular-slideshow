@@ -1,0 +1,45 @@
+h1 {
+  text-align:center;
+  color:#70a0ee;
+}
+
+h2 {
+  text-align:center;
+  color:#80b0ff;
+}
+
+.slide-show {
+  position:relative;
+  margin:20px;
+  padding:20px;
+}
+
+.slide {
+  position:relative;
+  padding:10px;
+  margin:20px;
+  min-width:200px;
+  min-height:200px;
+  display:none;
+}
+
+.slide-body {
+  position:relative;
+  padding:10px;
+  margin:10px;
+  min-width:200px;
+  min-height:200px;
+}
+
+.slide.active {
+  display:block;
+}
+
+.slide-nav {
+  height:40px;
+}
+
+.slide-nav-btn {
+  width:33%;
+  height:100%;
+}

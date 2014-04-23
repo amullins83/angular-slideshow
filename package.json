@@ -1,0 +1,31 @@
+{
+  "name": "angular-slideshow",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "dependencies": {
+    "jade": "*",
+    "coffee-script": "*",
+    "connect": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "async": "*",
+    "grunt-contrib-jasmine": "~0.5.3",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-template-jasmine-requirejs": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-sass": "*",
+    "karma-jasmine": "^0.1.5",
+    "karma-chrome-launcher": "^0.1.3",
+    "karma-script-launcher": "^0.1.0",
+    "grunt-karma": "^0.8.2",
+    "karma-ng-html2js-preprocessor": "^0.1.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"name": "angular-slideshow",
+  "version": "0.1",
+	"dependencies": {
+    "jQuery":"*",
+    "angular":"*",
+    "angular-ui":"*",
+    "angular-ui-bootstrap":"*",
+    "angular-mocks":"*"
+	}
+}

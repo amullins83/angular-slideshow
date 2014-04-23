@@ -1,0 +1,13 @@
+<div class="slide-show">
+  <slide ng-repeat="slideContent in slideSource"
+         slide-content="slideContent">
+  </slide>
+  <div class="container-fluid slide-nav">
+    <button class="btn btn-primary slide-nav-btn
+      glyphicon glyphicon-step-backward" ng-click="down()">
+    </button>
+    <button class="btn btn-primary slide-nav-btn pull-right
+      glyphicon glyphicon-step-forward" ng-click="up()">
+    </button>
+  </div>
+</div>
