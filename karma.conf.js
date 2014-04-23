@@ -16,13 +16,11 @@ module.exports = function(config) {
       'bower_components/jQuery/dist/jquery.min.js',
       'bower_components/angular/angular.min.js',
       'bower_components/angular-mocks/angular-mocks.js',
-      'bower_components/angular-ui/build/angular-ui.min.js',
-      'bower_components/angular-ui-bootstrap/src/*/*.js',
+      'bower_components/angular-sanitize/angular-sanitize.min.js',
       '**/tpl/*.html',
-      'public/*.js',
+      'lib/*.js',
       'test/helpers.js',
-      'test/**/*Spec.js',
-      'index.html'
+      'test/**/*Spec.js'
     ],
 
     // list of files to exclude

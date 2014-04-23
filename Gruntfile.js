@@ -42,28 +42,26 @@ module.exports = function(grunt) {
         },
         concat: {
             options: {
-                separator: ";"
+                separator: ";" + grunt.util.linefeed
             },
             js: {
                 src: [
                     './bower_components/jQuery/dist/jquery.min.js',
                     './bower_components/angular/angular.min.js',
                     './bower_components/angular-mocks/angular-mocks.js',
-                    './bower_components/angular-ui/build/angular-ui.min.js',
-                    './bower_components/angular-ui-bootstrap/src/**/*.js',
-                    './public/**/*.js',
+                    'bower_components/angular-sanitize/angular-sanitize.min.js',
+                    './lib/**/*.js',
                 ],
-                dest: './public/application.js'
+                dest: './public/js/application.js'
             },
             css: {
                 src: [
 
-                        './assets/css/bootstrap/bootstrap.min.css',
-                        './assets/css/bootstrap/bootstrap-theme.min.css',
-                        './assets/css/experiment.css',
-                        './assets/css/mems.css'
+                        './assets/css/bootstrap.min.css',
+                        './assets/css/bootstrap-theme.min.css',
+                        './assets/css/slideShow.css'
                 ],
-                dest: './public/application.css'
+                dest: './public/css/application.css'
             }
         },
         coffee: {

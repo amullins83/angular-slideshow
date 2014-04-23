@@ -63,5 +63,5 @@ grunt watch
 ###Host slides
 
 ```bash
-npm serve
+npm start
 ```

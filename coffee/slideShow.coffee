@@ -10,6 +10,7 @@ slideShow.service "slides",
               active: false
               title:  slide.title
               uri:    slide.uri
+    )
     
     return slides
 

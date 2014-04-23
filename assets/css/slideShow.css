@@ -1,17 +1,30 @@
+/* slideShow */
+
+.dummy {
+  /* something goes wrong when concatenating */
+}
+
 h1 {
+  position:relative;
+  width:800px;
   text-align:center;
+  margin:20px auto;
   color:#70a0ee;
 }
 
 h2 {
+  position:relative;
+  width:800px;
   text-align:center;
+  margin:10px auto;
   color:#80b0ff;
 }
 
 .slide-show {
   position:relative;
-  margin:20px;
+  margin:20px auto;
   padding:20px;
+  width:800px;
 }
 
 .slide {
@@ -42,4 +55,8 @@ h2 {
 .slide-nav-btn {
   width:33%;
   height:100%;
+}
+
+.slide-nav-btn.pull-right {
+  float:right;
 }
