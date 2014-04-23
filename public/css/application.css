@@ -20,42 +20,35 @@
 
 h1 {
   position:relative;
-  width:800px;
   text-align:center;
-  margin:20px auto;
+  margin:10px 0;
   color:#70a0ee;
 }
 
 h2 {
   position:relative;
-  width:800px;
   text-align:center;
-  margin:10px auto;
+  margin:10px 0;
   color:#80b0ff;
 }
 
 .slide-show {
   position:relative;
-  margin:20px auto;
-  padding:20px;
-  width:800px;
+  margin:0;
+  padding:0;
 }
 
 .slide {
   position:relative;
-  padding:10px;
-  margin:20px;
-  min-width:200px;
-  min-height:200px;
+  padding:0;
+  height:440px;
   display:none;
 }
 
 .slide-body {
   position:relative;
-  padding:10px;
-  margin:10px;
-  min-width:200px;
-  min-height:200px;
+  padding:0;
+  margin:10px 0;
 }
 
 .slide.active {
@@ -68,7 +61,6 @@ h2 {
 
 .slide-nav-btn {
   width:33%;
-  height:100%;
 }
 
 .slide-nav-btn.pull-right {

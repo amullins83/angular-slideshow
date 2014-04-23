@@ -38,6 +38,10 @@ module.exports = function(grunt) {
             karma: {
                 files: ['lib/**/*.js', 'test/**/*Spec.js',],
                 tasks: ['karma:unit:run']
+            },
+            nw: {
+                files: ['public/**/*'],
+                tasks: ['nodewebkit']
             }
         },
         concat: {
@@ -108,7 +112,17 @@ module.exports = function(grunt) {
                 configFile: 'karma.conf.js',
                 background: true
             }
-        }
+        },
+        nodewebkit: {
+            options: {
+                build_dir: './webkitbuilds',
+                mac: true, 
+                win: true, 
+                linux32: false,
+                linux64: true 
+            },
+            src: ['./public/**/*']
+        },
     });
 
     grunt.loadNpmTasks("grunt-contrib-jasmine");
@@ -118,6 +132,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks("grunt-contrib-coffee");
     grunt.loadNpmTasks("grunt-contrib-sass");
     grunt.loadNpmTasks("grunt-karma");
+    grunt.loadNpmTasks("grunt-node-webkit-builder");
 
     grunt.registerTask("default", ["watch"]);
 
