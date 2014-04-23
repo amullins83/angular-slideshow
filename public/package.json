@@ -1,5 +1,6 @@
 {
   "name":"Ludlum Engineering Meeting - Austin Mullins",
+  "version":"1.0",
   "main": "index.html",
   "window": {
     "toolbar": false,
