@@ -17,6 +17,7 @@ slideShow.service "slides",
 slideShow.controller "slideCtrl", ($scope, slides) ->
   $scope.slideSource = slides
   $scope.activeSlide = 0
+  $scope.headerTemplate = "content/header.html"
   
   $scope.jumpTo = (i) ->
     if i >= 0 and i < $scope.slideSource.length
@@ -51,6 +52,11 @@ slideShow.directive "slideShow",
     restrict: 'E'
     templateUrl: "tpl/slide-show.html"
     controller: "slideCtrl"
+    link: ($scope, elm, attrs)->
+      ht = attrs["headerTemplate"]
+
+      $scope.headerTemplate = ht if ht?
+      
 
 
 slideShow.directive "slide",

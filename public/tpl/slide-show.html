@@ -1,4 +1,5 @@
 <div class="slide-show">
+  <ng-include src="headerTemplate"></ng-include>
   <slide ng-repeat="slideContent in slideSource"
          slide-content="slideContent"
          ng-click="up()">

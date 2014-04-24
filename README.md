@@ -40,6 +40,17 @@ Include the listed dependencies, then `slideShow.js`, `slideShow.css`,
 ]
 ```
 
+###Header
+
+A custom header can be added to be displayed over every slide. By default,
+this is included from `content/header.html`, but the location can be set
+using the `header-template` attribute on the `slide-show` directive. For
+example:
+
+```html
+<slide-show header-template="my-header.html"></slide-show>
+```
+
 ###Install
 
 ```bash
