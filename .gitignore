@@ -39,6 +39,7 @@ public/content/*
 public/data/*
 public/js/*
 public/css/*
+public/images/*
 
 *.nw
 webkitbuilds

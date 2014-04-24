@@ -4,31 +4,42 @@
   /* something goes wrong when concatenating */
 }
 
-h1 {
+.slide-show {
+  position:relative;
+  margin:0;
+  padding:10px;
+}
+
+.slide-show h1 {
   position:relative;
   text-align:center;
-  margin:10px 0;
+  margin:0;
   color:#70a0ee;
 }
 
-h2 {
+.slide-show h2 {
   position:relative;
   text-align:center;
   margin:10px 0;
   color:#80b0ff;
 }
 
-.slide-show {
-  position:relative;
-  margin:0;
-  padding:0;
-}
 
 .slide {
   position:relative;
   padding:0;
   height:440px;
   display:none;
+  overflow:auto;
+}
+
+.slide.active {
+  display:block;
+}
+
+.slide h3 {
+  position: relative;
+  margin:10px 40px;
 }
 
 .slide-body {
@@ -37,18 +48,36 @@ h2 {
   margin:10px 0;
 }
 
-.slide.active {
-  display:block;
+.slide-body ul {
+  position: relative;
+  margin:10px auto;
+  width:80%;
 }
 
+.slide-body ul ul {
+  margin:5px 5px;
+}
+
+.slide-body .img-box {
+  position: relative;
+  margin:20px auto;
+  width:500px;
+}
+
+.slide-body .img-box img {
+  width:500px;
+}
+
+
 .slide-nav {
-  height:40px;
+  height:70px;
 }
 
 .slide-nav-btn {
-  width:33%;
+  width:40%;
 }
 
 .slide-nav-btn.pull-right {
   float:right;
 }
+
