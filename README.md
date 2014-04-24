@@ -76,3 +76,14 @@ grunt watch
 ```bash
 npm start
 ```
+
+###Node-Webkit
+
+A separate `package.json` manifest is included in the `public` folder that
+sets up a node-webkit window when the `nodewebkit` Grunt task is run. This
+can be a handy way to port your slideshow to various systems. The task
+is configured by default to build for Mac, Windows, and 64-bit Linux.
+Other options are available. Check with
+[the Node-Webkit project](https://github.com/rogerwang/node-webkit) and 
+[the Node-Webkit grunt task page](https://github.com/mllrsohn/grunt-node-webkit-builder)
+for details.

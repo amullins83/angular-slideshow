@@ -61,7 +61,6 @@ module.exports = function(grunt) {
 
                         './assets/css/bootstrap.min.css',
                         './assets/css/bootstrap-theme.min.css',
-                        './bower_components/angular-ui/build/angular-ui.min.css',
                         './assets/css/slideShow.css'
                 ],
                 dest: './public/css/application.css'
