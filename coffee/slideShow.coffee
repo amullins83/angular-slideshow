@@ -1,4 +1,4 @@
-slideShow = angular.module("slideShow", ['ng', 'ngSanitize'])
+slideShow = angular.module("slideShow", ['ng', 'ngSanitize', 'ui.keypress'])
 
 slideShow.service "slides",
   ($http)->

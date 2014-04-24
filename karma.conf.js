@@ -17,6 +17,7 @@ module.exports = function(config) {
       'bower_components/angular/angular.min.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/angular-sanitize/angular-sanitize.min.js',
+      'bower_components/angular-ui-utils/keypress.min.js',
       '**/tpl/*.html',
       'lib/*.js',
       'test/helpers.js',

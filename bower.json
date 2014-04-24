@@ -1,10 +1,11 @@
 {
-	"name": "angular-slideshow",
+  "name": "angular-slideshow",
   "version": "0.1",
-	"dependencies": {
-    "jQuery":"*",
-    "angular":"*",
-    "angular-sanitize":"*",
-    "angular-mocks":"*"
-	}
+  "dependencies": {
+    "jQuery": "*",
+    "angular": "*",
+    "angular-sanitize": "*",
+    "angular-mocks": "*",
+    "angular-ui-utils": "bower-keypress"
+  }
 }

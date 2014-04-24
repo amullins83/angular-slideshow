@@ -45,15 +45,13 @@ module.exports = function(grunt) {
             }
         },
         concat: {
-            options: {
-                separator: ";" + grunt.util.linefeed
-            },
             js: {
                 src: [
                     './bower_components/jQuery/dist/jquery.min.js',
                     './bower_components/angular/angular.min.js',
                     './bower_components/angular-mocks/angular-mocks.js',
-                    'bower_components/angular-sanitize/angular-sanitize.min.js',
+                    './bower_components/angular-sanitize/angular-sanitize.min.js',
+                    './bower_components/angular-ui-utils/keypress.min.js',
                     './lib/**/*.js',
                 ],
                 dest: './public/js/application.js'
@@ -63,6 +61,7 @@ module.exports = function(grunt) {
 
                         './assets/css/bootstrap.min.css',
                         './assets/css/bootstrap-theme.min.css',
+                        './bower_components/angular-ui/build/angular-ui.min.css',
                         './assets/css/slideShow.css'
                 ],
                 dest: './public/css/application.css'

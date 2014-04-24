@@ -1,4 +1,5 @@
-<div class="slide-show">
+<div class="slide-show" tabindex="0"
+  ui-keyup="{'left':'up()', 'right':'down()', 'up':'up()', 'down':'down()'}">
   <ng-include src="headerTemplate"></ng-include>
   <slide ng-repeat="slideContent in slideSource"
          slide-content="slideContent"
